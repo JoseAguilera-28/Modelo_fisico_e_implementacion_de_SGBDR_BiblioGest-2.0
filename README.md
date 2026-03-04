@@ -2,8 +2,11 @@
 El sistema debe gestionar el inventario físico de una biblioteca. El modelo consta de:
 
 SOCIOS: (DNI, Nombre, Email, Telefono).
+
 LIBROS: (ISBN, Titulo, Autor, Paginas).
+
 EJEMPLARES: (ID_Ejemplar, ISBN, Estado). Relacionado con LIBROS.
+
 PRESTAMOS: (Socio, Ejemplar, Fecha). Relacionado con SOCIOS y EJEMPLARES.
 
 # 1: Definición de Estructura y Tipos de Datos
